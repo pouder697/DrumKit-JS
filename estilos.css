@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+body{
+    background-image: url(../Drumkit/assets/baterista1.jpg);
+    
+}
+
+.drumkit{
+    position: relative;
+    display: flex;
+    margin-top: 20rem;
+    flex-wrap: wrap;
+    justify-content:center;
+    height: 10%;
+}
+
+.key kbd{
+    margin: 2px;
+}
+
+.key{
+    font-family: 'Dela Gothic One';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem;
+    height: 7rem;
+    width: 7rem;
+    border: 3px solid black;
+    border-radius: 0.8rem 0.8rem 0.8rem 0.8rem; 
+    background: radial-gradient(#fa512789, #220300);
+}
